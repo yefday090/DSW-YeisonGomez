@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <img width="20%" src="../img/html5.png" class="rounded mx-auto d-block" alt="HTML5">
+        <h1>Diseño de sitios web</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navegacion">
+        <a class="navbar-brand" href="#">Design</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Temas
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="tema1.html">Tema 1</a>
+                        <a class="dropdown-item" href="tema2.html">Tema 2</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Recursos Digitales
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="recurso1.html">Recurso 1</a>
+                        <a class="dropdown-item" href="recurso2.html">Recurso 2</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Aprendizaje
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="actividad1.html">Actividad 1</a>
+                        <a class="dropdown-item" href="actividad2.html">Actividad 2</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Acerca de
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="autor.html">Autor</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="contenedor">
+        <aside class="lateralDer">
+            <!-- https://colorhunt.co/ -->
+            <!-- https://publish.twitter.com/ -->
+            <a class="twitter-timeline" data-height="650" href="https://twitter.com/Mineducacion?ref_src=twsrc%5Etfw">Tweets by Mineducacion</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+        <section class="principal">
+            <article>
+                <h2>Fundamentos de HTML</h2>
+                <h3>Editores HTML</h3>
+                <p class="alinear">
+                    Un documento HTML no es más que un archivo de texto, por tanto para crear o modificar archivos HTML basta con utilizar un editor de texto simple, como el bloc de notas de Windows. Existen editores más sofisticados como Frontpage o Dreamweaver. Estos editores
+                    presentan el código de forma más amigable, distinguiendo por ejemplo los diferentes tipos de etiquetas con colores o incorporando herramientas visuales para incorporar elementos, pero además de que se trata de herramientas de pago,
+                    no son recomendables cuando se está aprendiendo, debido a que en numerosas ocasiones introducen líneas de código automáticamente lo cual puede confundir.
+                </p>
+            </article>
+            <article>
+                <h2>El código HTML</h2>
+                <p class="alinear">
+                    La especificación completa de la última versión de HTML 4.0 puede consultarse de forma gratuita en la web: http://www.w3.org/TR/html401. Esta norma oficial está escrita de manera muy formal y algunas secciones son difíciles de comprender. Afortunadamente
+                    no es necesario leer las recomendaciones oficiales para aprender a diseñar páginas con HTML. El lenguaje HTML, como ya se ha comentado, es un lenguaje de marcas o etiquetas. Esto quiere decir que los elementos que conforman la página
+                    web se describen mediante palabras especiales que marcan el inicio y el final de los mismos, estas palabras se denominan etiquetas. Aunque existen algunas excepciones, en general las etiquetas se indican por pares de la siguiente forma:
+                </p>
+                <ul>
+                    <li>
+                        Etiqueta de apertura: carater &#60;, seguido del nombre de la etiqueta (sin espacios en blanco) y terminado con el carácter &#62;.
+                    </li>
+                    <li>
+                        Etiqueta de cierre: carater &#60;, seguido del carácter /, seguido del nombre de la etiqueta (sin espacios en blanco) y terminando con el carácter &#62;.
+                    </li>
+                </ul>
+                <p>
+                    Por tanto, la estructura típica de las etiquetas HTML es:
+                </p>
+                <p>
+                    &#60;nombre_etiqueta&#62;...&#60;/nombre_etiqueta&#62;
+                </p>
+                <br>
+            </article>
+            <article>
+                <h2>Estructura de un documento HTML</h2>
+                <p class="alinear">
+                    Todas las páginas HTML contienen los mismos elementos básicos:
+                </p>
+                <ul>
+                    <li>
+                        Doctype: Es la primera línea de código que tiene que estar en cualquier documento HTML. Esta línea indica al navegador qué especificación de HTML se esta utilizando.
+                    </li>
+                    <li>
+                        HTML: El par de etiquetas &#60;html&#62; y &#60;/html&#62; se encuentran al principio y al final de todo documento HTML y sirve para indicar a todas las aplicaciones que pueden analizar texto sin formato (no sólamente a los navegadores) que esa página
+                        utiliza HTML.
+                    </li>
+                    <li>
+                        Head: Las etiquetas &#60;head&#62; y &#60;/head&#62; delimitan el contenido de la cabecera del documento, es decir, el título de la página y una información que no aparece en la pantalla.
+                    </li>
+                    <li>
+                        Title: El par de etiquetas &#60;title&#62; y &#60;/title&#62; rodea el texto del título. El título aparece en la barra de título del navegador web cuando presenta la página. Normalmente va dentro del elemento &#60;head&#62;.
+                    </li>
+                    <li>
+                        Meta: &#60;meta&#62; permite aportar metainformación al documento, para su mejor identificación e indexación por los motores de búsqueda.
+                    </li>
+                    <li>
+                        Body: Las etiquetas &#60;body&#62; y &#60;/body&#62; rodean el contenido visible de la página. También puede llevar incluida información sobre las propiedades de la página, por ejemplo &#60;body bgcolor="#RRGGBB"&#62; define el color de fondo de la página.
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h2>Etiquetas HTML más comunes</h2>
+                <ul>
+                    <li>
+                        Comentarios: &#60;!-- comentarios --&#62;: Para escribir anotaciones que sirven para ayudar a la comprensión del código. Lo que se escribe dentro de esta etiqueta es ignorado por el navegador y no se muestra en la página.
+                    </li>
+                </ul>
+                <h5>Formato de textos</h5>
+                <ul>
+                    <li>
+                        &#60;b&#62;...&#60;/b&#62;: Aplica negrita al texto incluido entre las etiquetas (es equivalente usar &#60;strong&#62;...&#60;/strong&#62;)
+                    </li>
+                    <li>
+                        &#60;i&#62;...&#60;/i&#62;: Aplica cursiva al texto incluido entre las etiquetas (es equivalente usar &#60;em&#62;...&#60;/em&#62;)
+                    </li>
+                    <li>
+                        &#60;u&#62;...&#60;/u&#62;: Aplica subrayado
+                    </li>
+                    <li>
+                        &#60;font&#62;...&#60;/font&#62;: Delimita un texto con un formato de fuente determinado definido por sus propiedades:
+                        <ul>
+                            <li>
+                                &#60;font size=”X”&#62;… &#60;/font&#62;: Indica el tamaño del texto.
+                            </li>
+                            <li>
+                                &#60;font color=”#RRGGBB”&#62;… &#60;/font&#62;: Define el color del texto, donde cada letra RRGGBB es un valor hexadecimal (de 0 a F) que indica el color.
+                            </li>
+                            <li>
+                                &#60;font face=”arial”&#62;… &#60;/font&#62;: Determina el tipo de fuente de texto, es decir, la tipografía.
+                                <br> La etiqueta &#60;font&#62; puede incluir los tres parámetros (tamaño, fuente y color): &#60;font size=X color=#XXYYZZ face=fuente escogida&#62; …… &#60;/font&#62;
+                            </li>
+                            <li>
+                                h1, h2, h3, h4, h5, h6: Indican 6 niveles de formato de encabezados, en los que &#60;h1&#62;...&#60;/h1&#62; delimitaría el tipo de fuente de mayor tamaño.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h5>Formato de párrafos</h5>
+                <ul>
+                    <li>
+                        &#60;br&#62;: Delimita un parrafo de texto.
+                        <ul>
+                            <li>
+                                &#60;p align-'center'&#62;: Texto del párrafo con alineación centrada.
+                            </li>
+                            <li>
+                                &#60;p align-'left'&#62;: Párrado alineado a la izquierda.
+                            </li>
+                            <li>
+                                &#60;p align-'right'&#62;: Párrafo alineadoa a la derecha.
+                            </li>
+                            <li>
+                                &#60;p align-'justify'&#62;: Texto del párrafo con alineación justificada
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        &#60;hr&#62;: Inserta una línea orizontal.
+                    </li>
+                    <li>
+                        &#60;div&#62;: Se utiliza para delimitar una sección dentro del documento, de forma que agrupe un número de elementos para luego añadirle un estilo determinado o realizar operaciones sobre ese bloque específico.
+                    </li>
+                </ul>
+                <h5>Creación de listas</h5>
+                <ul>
+                    <li>
+                        Lista no numeradad:
+                        <br> &#60;ul&#62; Inicio de la lista
+                        <br> &#60;i&#62;primer elemento de la lista&#60;/i&#62;
+                        <br> &#60;i&#62;segundo elemento de la lista&#60;/i&#62;
+                        <br> &#60;i&#62;tercer elemento de la lista&#60;/i&#62;
+                        <br> &#60;/ul&#62; Cierra la lista
+                    </li>
+                    <li>
+                        Lista numerada:
+                        <br> &#60;ol&#62; Inicio de la lista
+                        <br> &#60;i&#62;primer elemento de la lista&#60;/i&#62;
+                        <br> &#60;i&#62;segundo elemento de la lista&#60;/i&#62;
+                        <br> &#60;/ol&#62; Cierra la lista
+                    </li>
+                </ul>
+                <h5>Imágenes</h5>
+                <ul>
+                    <li>
+                        &#60;img src="dirección de la imagen"&#62;: Inserta una imagen que se encuentra en la ruta indicada por "dirección de la imagen". También se pueden incluir una serie de propiedades:
+                        <ul>
+                            <li>
+                                &#60;img ... border="X"&#62;: Establece un borde de X pixels en torno a la imagen.
+                            </li>
+                            <li>
+                                &#60;img ... height="XX" width="YY"&#62;: Establece un tamaño de la imagen, donde XX e YY son al altura y anchura en pixels respectivamente.
+                            </li>
+                            <li>
+                                &#60;img ... alt="texto explicativo"&#62;: Se muestra un texto al pasar el ratón sobre la imagen.
+                            </li>
+                            <li>
+                                &#60;img ... align="bottom"&#62;: Alineación inferior de la imagen respecto al texto.
+                            </li>
+                            <li>
+                                &#60;img ... align="middle"&#62;: Alineación de la imagen en medio del texto.
+                            </li>
+                            <li>
+                                &#60;img ... align="top"&#62;: Alineación superior de la imagen respecto al texto.
+                            </li>
+                            <li>
+                                &#60;img ... align="left"&#62;: Alineación izquierda de la imagen en el párrafo.
+                            </li>
+                            <li>
+                                &#60;img ... align="right"&#62;: Alineación derecha de la imagen en el párrafo.
+                            </li>
+                            <li>
+                                &#60;img ... hspace="x"&#62;: Espacio horizontal en pixeles entre la imagen y el texto.
+                            </li>
+                            <li>
+                                &#60;img ... vspace="y"&#62;: Espacio vertical en pixeles entre la imagen y el texto.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+            <hr>
+            <article>
+                <h2>Referencias bibligraficas</h2>
+                <ul>
+                    <li><a href="https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045" target="_blank">Celaya Luna, A. (2014). Creación de páginas web: HTML5. p. 1 - 60.</a></li>
+                </ul>
+            </article>
+        </section>
+        <aside class="lateralIzq">
+            <a class="twitter-timeline" data-height="650" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+    </main>
+    <footer class="pie">
+        <p>Email: yefday090@gmail.com</p>
+        <p>Skype: yefday_090@hotmail.com</p>
+        <p>Última actualización: 08/10/2022</p>
+        <p>Versión: 2.0.0.0</p>
+    </footer>
+</body>
+
+</html>
